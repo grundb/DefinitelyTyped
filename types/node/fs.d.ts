@@ -214,6 +214,10 @@ declare module 'fs' {
          * @since v10.10.0
          */
         name: string;
+        /**
+         * The base path that this `fs.Dirent` object refers to.
+         */
+        path: string;
     }
     /**
      * A class representing a directory stream.
